@@ -1,0 +1,23 @@
+{
+  "name": "@tube-rag/vector-store",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tsx": "^4.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.0"
+  }
+} 
